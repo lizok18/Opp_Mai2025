@@ -1,0 +1,25 @@
+{
+    "name": "C++ Development Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-python.python",
+                "ms-vscode.cmake-tools"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "editor.formatOnSave": true,
+                "files.associations": {
+                    "*.h": "c"
+                }
+            }
+        }
+    },
+    "remoteUser": "root",
+    "workspaceFolder": "/workspace"
+}

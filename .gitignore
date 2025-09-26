@@ -1,0 +1,15 @@
+build/
+.vscode/
+.cmake/
+CMakeFiles/
+*.cmake
+*.user
+*.swp
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+.DS_Store
+Thumbs.db
